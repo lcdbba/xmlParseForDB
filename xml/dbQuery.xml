@@ -1,0 +1,10 @@
+<master>
+	<main author="yb" createDate="20170720">
+		<list>
+			select * from sample where {0}
+		</list>
+		<insert>
+			insert into sample(id, val) values('{0}', '{1}')
+		</insert>
+	</main>
+</master>
